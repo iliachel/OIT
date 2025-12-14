@@ -160,3 +160,38 @@ body.light header {
   justify-content: center;
   font-weight: bold;
 }
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.gallery-item {
+  background: var(--card);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(56,189,248,0.2);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content-image {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.content-image img {
+  max-width: 100%;
+  border-radius: 12px;
+}
