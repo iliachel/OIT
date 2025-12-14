@@ -195,3 +195,20 @@ body.light header {
   max-width: 100%;
   border-radius: 12px;
 }
+
+.btn-primary {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: var(--accent);
+  color: var(--bg);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #60a5fa; /* A slightly lighter shade of the accent color */
+}
