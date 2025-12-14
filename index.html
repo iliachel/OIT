@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>TinyML на микроконтроллерах</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- AOS animations -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">TinyML</div>
+  <nav>
+    <a href="index.html" class="active">Главная</a>
+    <a href="sections/intro.html">Введение</a>
+    <a href="sections/limits.html">Ограничения</a>
+    <a href="sections/lifecycle.html">Жизненный цикл</a>
+    <a href="sections/frameworks.html">Фреймворки</a>
+    <a href="sections/compare.html">Сравнение</a>
+    <a href="sections/conclusion.html">Выводы</a>
+  </nav>
+  <button id="theme-toggle">🌙</button>
+</header>
+
+<main>
+  <section class="hero" data-aos="fade-up">
+    <h1>TinyML на микроконтроллерах</h1>
+    <p>
+      Архитектуры, ограничения и сравнение фреймворков
+    </p>
+    <div class="author">
+      <strong>Челевич Илья Михайлович</strong><br>
+      Белорусский государственный университет<br>
+      Специальность: Кибербезопасность
+    </div>
+  </section>
+
+  <section class="cards">
+    <a href="sections/intro.html" class="card" data-aos="fade-up">
+      <h3>Введение</h3>
+      <p>Актуальность TinyML и области применения</p>
+    </a>
+
+    <a href="sections/limits.html" class="card" data-aos="fade-up" data-aos-delay="100">
+      <h3>Ограничения MCU</h3>
+      <p>Память, вычисления, энергия</p>
+    </a>
+
+    <a href="sections/lifecycle.html" class="card" data-aos="fade-up" data-aos-delay="200">
+      <h3>Жизненный цикл</h3>
+      <p>От данных до inference</p>
+    </a>
+
+    <a href="sections/frameworks.html" class="card" data-aos="fade-up" data-aos-delay="300">
+      <h3>Фреймворки</h3>
+      <p>TFLM, Edge Impulse, STM32Cube.AI</p>
+    </a>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 | TinyML на микроконтроллерах</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
