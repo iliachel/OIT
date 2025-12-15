@@ -338,3 +338,12 @@ body.light header {
     display: block;
   }
 }
+
+body.light #mobile-menu-container {
+    background: #e5e7eb;
+}
+
+body.light #mobile-menu-container a {
+    color: var(--text);
+    border-bottom: 1px solid #d1d5db;
+}
