@@ -305,6 +305,18 @@ body.light header {
   color: var(--text);
   font-size: 24px;
   cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+#mobile-menu-toggle:hover {
+  color: var(--accent);
+}
+
+#mobile-menu-toggle:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--accent);
 }
 
 #mobile-menu-container {
@@ -315,7 +327,8 @@ body.light header {
   top: 60px;
   left: 0;
   right: 0;
-  z-index: 9;
+  z-index: 11;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #mobile-menu-container.is-open {
