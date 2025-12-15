@@ -32,23 +32,138 @@
 
 <main>
   <section class="hero" data-aos="fade-up">
-    <h1>Резюме</h1>
+    <h1>Resume</h1>
   </section>
 
-  <section class="cards">
-    <div class="card" data-aos="fade-up">
-      <h3>Опыт работы</h3>
-      <p>Здесь будет ваш опыт работы.</p>
+  <div class="resume-container">
+    <aside class="resume-left-column" data-aos="fade-right">
+      <section class="resume-section">
+        <div class="resume-photo-placeholder">
+          <img src="../assets/image7.png" alt="photo">
+        </div>
+      </section>
+      <section class="resume-section">
+        <div class="skills-block">
+          <h3>Hard Skills</h3>
+          <ul>
+            <li><strong>Python:</strong> FastAPI, asyncio, aiohttp</li>
+            <li><strong>C++:</strong> Qt, Boost</li>
+            <li><strong>Backend Development:</strong> REST API, SQLAlchemy</li>
+            <li><strong>Databases:</strong> PostgreSQL</li>
+            <li><strong>DevOps:</strong> Docker, Linux</li>
+            <li><strong>Data Processing:</strong> pandas, ETL pipelines</li>
+            <li><strong>Version Control & Automation:</strong> Git, CI/CD</li>
+          </ul>
+        </div>
+        <div class="skills-block">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>System thinking</li>
+            <li>Analytical mindset</li>
+            <li>Strong self-learning ability</li>
+            <li>Teaching & mentoring experience</li>
+            <li>Responsibility and attention to detail</li>
+          </ul>
+        </div>
+      </section>
+    </aside>
+    <div class="resume-right-column" data-aos="fade-left">
+      <section class="resume-section">
+        <section id="about">
+          <h3>About Me</h3>
+          <p>
+            C++ developer focused on building performant and maintainable applications using
+            Qt and Boost. Experienced in multithreaded and asynchronous C++ development,
+            including network I/O with Boost.Asio and application architecture design.
+          </p>
+          <p>
+            Teaching assistant conducting laboratory classes in C++ and Assembly, covering
+            system programming, memory management, algorithms, and architectural concepts.
+            Currently pursuing a Master’s degree in Cybersecurity.
+          </p>
+          <p>
+            Interested in Qt-based desktop development, performance optimization, and
+            maintaining and evolving existing C++ codebases. I value an engineering-driven
+            approach, clean code, and long-term maintainability.
+          </p>
+        </section>
+      </section>
+      <section class="resume-section">
+        <section id="experience">
+          <h3>Work Experience</h3>
+          <div class="experience-item">
+            <h3>Teaching Assistant — C++ / Assembly</h3>
+              <p class="experience-meta">
+                September 1, 2024 — Present
+              </p>
+              <p>
+                <strong>Experience duration:</strong>
+                <span id="experience-counter">calculating...</span>
+              </p>
+              <p>
+                Teaching laboratory classes in C++ and Assembly, focusing on system programming,
+                algorithms, memory management, and application architecture.
+              </p>
+            </div>
+          </section>
+      </section>
+      <section class="resume-section">
+        <section id="education">
+          <h3>Education</h3>
+
+          <div class="education-item">
+            <h3>Master’s Degree — Cybersecurity</h3>
+            <p class="education-meta">
+            <strong>BSU</strong><br>
+              2024 — Present
+            </p>
+            <ul>
+              <li>Computer systems architecture and information security fundamentals</li>
+              <li>Low-level programming and vulnerability analysis</li>
+              <li>Applying C/C++ for system-level and applied development</li>
+            </ul>
+          </div>
+
+          <div class="education-item">
+            <h3>Bachelor’s Degree — Computer Science and Engineering</h3>
+            <p class="education-meta">
+              <strong>BSU</strong><br>
+              2020 — 2024
+            </p>
+            <ul>
+              <li>Algorithms and data structures</li>
+              <li>System programming in C and C++</li>
+              <li>Operating systems and computer networks</li>
+              <li>Project-based and team-oriented development</li>
+            </ul>
+          </div>
+        </section>
+      </section>
+      <section class="resume-section">
+        <section id="achievements">
+          <h3>Achievements</h3>
+          <ul>
+            <li>
+              Designed and maintained educational C++ projects with a focus on application
+              architecture, memory management, and code readability.
+            </li>
+            <li>
+              Implemented asynchronous and network-based solutions in C++ using Boost.Asio,
+              including client-server communication and event-driven processing.
+            </li>
+            <li>
+              Developed data collection and processing systems for Arduino and ESP32-based
+              projects, integrating hardware with software solutions.
+            </li>
+            <li>
+              Built and automated event logging and data tracking systems for analytical
+              and monitoring purposes.
+            </li>
+          </ul>
+        </section>
+      </section>
     </div>
-    <div class="card" data-aos="fade-up" data-aos-delay="100">
-      <h3>Образование</h3>
-      <p>Здесь будет ваше образование.</p>
-    </div>
-    <div class="card" data-aos="fade-up" data-aos-delay="200">
-      <h3>Навыки</h3>
-      <p>Здесь будут ваши навыки.</p>
-    </div>
-  </section>
+  </div>
 </main>
 
 <footer>
