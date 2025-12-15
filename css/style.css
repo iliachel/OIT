@@ -161,6 +161,23 @@ body.light header {
   font-weight: bold;
 }
 
+#skills {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.skills-block {
+  margin-bottom: 24px;
+}
+
+.skills-block ul {
+  padding-left: 20px;
+}
+
+.skills-block li {
+  margin-bottom: 8px;
+}
+
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
