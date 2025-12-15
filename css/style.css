@@ -337,6 +337,16 @@ body.light header {
   #mobile-menu-toggle {
     display: block;
   }
+
+  .resume-container {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .resume-left-column {
+    max-width: 100%;
+  }
 }
 
 body.light #mobile-menu-container {
