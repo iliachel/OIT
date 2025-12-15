@@ -1,8 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
   const headerPlaceholder = document.getElementById('header-placeholder');
   if (headerPlaceholder) {
-    const isSubdirectory = window.location.pathname.includes('/sections/');
-    const rootPath = isSubdirectory ? '../' : '';
+    // Calculate the correct relative path to the project root
+    const pathSegments = window.location.pathname.split('/').filter(Boolean);
+    const depth = pathSegments.includes('sections')
+      ? pathSegments.length - 1
+      : 0;
+    const rootPath = depth > 0 ? '../'.repeat(depth) : './';
 
     fetch(`${rootPath}common/header.html`)
       .then(response => {
