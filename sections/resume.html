@@ -2,10 +2,13 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Выводы | TinyML</title>
+  <title>Резюме - TinyML на микроконтроллерах</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- AOS animations -->
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Styles -->
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -21,27 +24,31 @@
     <a href="compare.html">Сравнение</a>
     <a href="scenarios.html">Сценарии</a>
     <a href="literature.html">Литература</a>
-    <a href="conclusions.html" class="active">Выводы</a>
-    <a href="resume.html">Резюме</a>
+    <a href="conclusions.html">Выводы</a>
+    <a href="resume.html" class="active">Резюме</a>
   </nav>
   <button id="theme-toggle">🌙</button>
 </header>
 
-<main class="content">
+<main>
+  <section class="hero" data-aos="fade-up">
+    <h1>Резюме</h1>
+  </section>
 
-  <section data-aos="fade-up">
-  <h1>Выводы</h1>
-  <p>
-    TinyML является перспективным направлением, позволяющим внедрять
-    машинное обучение в автономные и энергоэффективные устройства.
-  </p>
-  <p>
-    Проведённый анализ показал, что выбор TinyML-фреймворка зависит
-    от требований задачи, аппаратной платформы и уровня автоматизации.
-  </p>
-</section>
-
-
+  <section class="cards">
+    <div class="card" data-aos="fade-up">
+      <h3>Опыт работы</h3>
+      <p>Здесь будет ваш опыт работы.</p>
+    </div>
+    <div class="card" data-aos="fade-up" data-aos-delay="100">
+      <h3>Образование</h3>
+      <p>Здесь будет ваше образование.</p>
+    </div>
+    <div class="card" data-aos="fade-up" data-aos-delay="200">
+      <h3>Навыки</h3>
+      <p>Здесь будут ваши навыки.</p>
+    </div>
+  </section>
 </main>
 
 <footer>
@@ -49,8 +56,8 @@
 </footer>
 
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-<script src="../js/main.js"></script>
 <script src="../js/theme.js"></script>
+<script src="../js/main.js"></script>
 
 </body>
 </html>
